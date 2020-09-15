@@ -2,9 +2,9 @@
     <div class="products">
         <div class="prod container">
             <div class="row">
-                <div class="col-sm-5 col-sm">
-                    <h1 class="text-warning text-justify font-weight-bold">OUR PRODUCTS</h1>
-                    <h4 class="text-muted text-justify">Learn about our clients success stories</h4>
+                <div class="col-sm-6 col-sm top">
+                    <p class="text-warning  font-weight-bold mt-5 display-4">OUR PRODUCTS</p>
+                    <p class="text-muted  display font-weight-bold">Learn about our clients success stories</p>
                 </div>
                  <div class="col-sm-6 col-sm">
                     <div>
@@ -19,7 +19,7 @@
                     <div class="col-sm-7">
                         <div>
                             <p class="text-muted text-justify">Case 1</p>
-                            <h1 class="text-primary ">Rad5 Academy</h1>
+                            <h1 class="text-primary text-left">Rad5 Academy</h1>
                         </div>
                         <div class="mt-5">
                             <img src="@/assets/botgence.png" alt="" class="img-fluid">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="row mb-4">
                     <div class="col-sm-7 mt-5">
-                        <div>Case 2</div>
+                        
                         <div>
                             <p class="text-black font-weight-bold">
                                 Problem:
@@ -130,8 +130,8 @@
                     </div>
                      <div class="col-sm-4">
                         <div>
-                            <p class="text-muted text-justify">Case 2</p>
-                            <h1 class="text-primary ">Rad5 Tech HUb</h1>
+                            <p class="text-muted text-justify text-right">Case 2</p>
+                            <h1 class="text-primary text-right ">Rad5 Tech Hub</h1>
                         </div>
                         <div class="mt-5">
                             <img src="@/assets/botgence.png" alt="" class="img-fluid">
@@ -201,7 +201,6 @@
                 </div>
                  <div class="row mb-4">
                     <div class="col-sm-7 mt-5 p-3">
-                        <div>Case 4</div>
                         <div>
                             <p class="text-black font-weight-bold">
                                 Problem:
@@ -253,7 +252,8 @@
                     </div>
                      <div class="col-sm-4">
                         <div>
-                            <h1 class="text-primary mt-5">Rad5 Tech HUb</h1>
+                            <p class="text-muted text-justify text-right">Case 4</p>
+                            <h1 class="text-primary mt-5 text-right">Rad5 Tech Hub</h1>
                         </div>
                         <div class="mt-5">
                             <img src="@/assets/botgence.png" alt="" class="img-fluid">
@@ -293,12 +293,16 @@
                     <a href="#"><i class="fab fa-linkedin text-white fa-2x"></i></a>
                  </div>
             </div>
+
+  App running at:
+  - Local:   http://localhost:8080/ 
+  - Network: http://192.168.43.63:8080/
           </div>
         </div>
         <hr>
         <div class="container">
             <div class="row">
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Botgence Solutions</h6>
                 </div>
@@ -320,7 +324,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Contact Us</h6>
                 </div>
@@ -337,6 +341,13 @@
                   <div class="mt-3">
                     <p class="text-white">No 7 factory road opposite UBA Bank <br> Aba, Abia State, Nigeria.</p>
                   </div>
+                </div>
+              </div>
+               <div class="col-sm-6 col-sm">
+                <div>
+                  <!-- <GmapMap class="map" /> -->
+                  <iframe src="https://maps.google.com/maps?q=botgence&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                   style="border:0" allowfullscreen width="100%" height="300px"></iframe>
                 </div>
               </div>
             </div>
@@ -389,6 +400,12 @@
     }
     p , h1, h2 ,h3 ,h4 ,h5 ,h6{
     font-family: Poppins;
+  }
+  .top{
+      margin-top: 70px;
+  }
+  .display{
+      font-size:30px;
   }
     
 

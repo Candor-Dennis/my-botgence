@@ -22,8 +22,8 @@
                 <img src="@/assets/insurance.png" alt="" class="img-fluid mission">
              </div>
               <div class="col-sm-6 col-sm p-5 mt-5">
-                <h5 class=" mt-2 text-center text-white">Our Mission</h5>
-                <h6 class="height">
+                <h5 class=" mt-2 text-center text-warning font-weight-bold">Our Mission</h5>
+                <h6 class="height text-white">
                   We believe everybody must experience a fantastic service every time they interact with a company. 
                   No matter where they are or what channel they use. To sum up, 
                   it should always be a positive experience that brings them back and makes t
@@ -33,8 +33,8 @@
           </div>
            <div class="row">
              <div class="col-sm-6 col-sm p-5 mt-5">
-                <h5 class=" mt-2 text-center text-white">Our Vision</h5>
-                <h6 class="height">
+                <h5 class=" mt-2 text-center text-warning font-weight-bold">Our Vision</h5>
+                <h6 class="height text-white">
                   We believe everybody must experience a fantastic service every time they interact with a company. 
                   No matter where they are or what channel they use. To sum up, 
                   it should always be a positive experience that brings them back and makes t
@@ -50,8 +50,8 @@
                 <img src="@/assets/insurance.png" alt="" class="img-fluid mission">
              </div>
               <div class="col-sm-6 col-sm p-5 mt-5">
-                <h5 class=" mt-2 text-center text-white">Why you should choose us..</h5>
-                <h6 class="height">
+                <h5 class=" mt-2 text-center text-warning font-weight-bold">Why you should choose us..</h5>
+                <h6 class="height text-white">
                   We believe everybody must experience a fantastic service every time they interact with a company. 
                   No matter where they are or what channel they use. To sum up, 
                   it should always be a positive experience that brings them back and makes t
@@ -136,7 +136,7 @@
         <hr>
         <div class="container">
             <div class="row">
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Botgence Solutions</h6>
                 </div>
@@ -158,7 +158,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Contact Us</h6>
                 </div>
@@ -175,6 +175,13 @@
                   <div class="mt-3">
                     <p class="text-white">No 7 factory road opposite UBA Bank <br> Aba, Abia State, Nigeria.</p>
                   </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-sm">
+                <div>
+                  <!-- <GmapMap class="map" /> -->
+                  <iframe src="https://maps.google.com/maps?q=botgence&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                   style="border:0" allowfullscreen width="100%" height="300px"></iframe>
                 </div>
               </div>
             </div>

@@ -122,7 +122,7 @@
         <hr>
         <div class="container">
             <div class="row">
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Botgence Solutions</h6>
                 </div>
@@ -144,7 +144,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Contact Us</h6>
                 </div>
@@ -161,6 +161,13 @@
                   <div class="mt-3">
                     <p class="text-white">No 7 factory road opposite UBA Bank <br> Aba, Abia State, Nigeria.</p>
                   </div>
+                </div>
+              </div>
+               <div class="col-sm-6 col-sm">
+                <div>
+                  <!-- <GmapMap class="map" /> -->
+                  <iframe src="https://maps.google.com/maps?q=botgence&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                   style="border:0" allowfullscreen width="100%" height="300px"></iframe>
                 </div>
               </div>
             </div>

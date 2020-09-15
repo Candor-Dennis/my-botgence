@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'jquery/dist/jquery.js'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import * as VueGoogleMaps from 'vue2-google-maps'
+// import * as VueGoogleMaps from 'vue2-google-maps'
  
 
  
@@ -16,17 +16,17 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: 'AIzaSyAt3YWJJCdrqfuuxULZ9-spouJqL4X2d70',
-    libraries: 'places', // This is required if you use the Autocomplete plugin
+// Vue.use(VueGoogleMaps, {
+  // load: {
+  //   key: 'AIzaSyCAKTN6b6SjkqovrWLODTgitJ3DlaqsceA',
+  //   libraries: 'roadmap', // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'
     // (as you require)
  
     //// If you want to set the version, you can do so:
     // v: '3.26',
-  },
+  // },
  
   //// If you intend to programmatically custom event listener code
   //// (e.g. `this.$refs.gmap.$on('zoom_changed', someFunc)`)
@@ -39,7 +39,7 @@ Vue.use(VueGoogleMaps, {
   //// Vue.component('GmapMarker', GmapMarker)
   //// then disable the following:
   // installComponents: true,
-})
+// })
 
 new Vue({
   router,

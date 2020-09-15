@@ -15,12 +15,12 @@
           <ul class="navbar-nav ml-auto p-2">
             <router-link to="/">
             <li class="nav-item active">
-              <a class="nav-link text-white font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white h6 font-weight-bold" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
             </router-link>
             <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About Us
+                  <a class="nav-link dropdown-toggle h6 text-light font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ABOUT US 
                   </a>
               <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
                 <router-link to="/about">
@@ -33,23 +33,23 @@
             </li>
             <li class="nav-item">
               <router-link to="/blog">
-              <a class="nav-link font-weight-bold  text-white" href="#">Blog</a>
+              <a class="nav-link font-weight-bold h6 text-white" href="#">BLOG</a>
               </router-link>
             </li>
             <li class="nav-item">
               <router-link to="/products">
-                <a class="nav-link font-weight-bold text-white" href="#">Products</a>
+                <a class="nav-link font-weight-bold h6 text-white" href="#">PRODUCTS</a>
               </router-link>
             </li>
             <li class="nav-item">
               <router-link to="/contact">
-                <a class="nav-link font-weight-bold text-white" href="#">Contact</a>
+                <a class="nav-link font-weight-bold h6 text-white" href="#">CONTACT</a>
               </router-link>
             </li>
              <li class="nav-item">
               <router-link to="">
                 <a class="nav-link  text-primary" href="#">
-                  <button class="my-btn btn-light  text-primary">Get a qoute</button>
+                  <button class="my-btn btn-light h6 text-primary">GET A QOUTE</button>
                 </a>
               </router-link>
             </li>

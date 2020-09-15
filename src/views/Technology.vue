@@ -1,8 +1,7 @@
 <template>
     <div class="technology">
         <div class="tech p-3">
-            <h3 class="text-center mb-5">GET TO KNOW TERMS AND CONCEPTS AROUND CHATBOTS</h3>
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row">
                     <div class="col-sm-6 col-sm">
                         <div>
@@ -79,38 +78,38 @@
                     </div>
                     <div class="mt-5">
                         <h6 class="font-weight-bold text-justify text-center">Leading Solution</h6>
-                        <p class="text-justify small text-center">We have one of the best language<br> processing sollutions in NIgeria</p>
+                        <p class="text-justify  text-center">We have one of the best language<br> processing sollutions in NIgeria</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-sm">
                      <div class="mb-4">
-                        <i class="fas fa-trophy text-primary fa-5x"></i>
+                        <i class="fas fa-puzzle-piece text-primary fa-5x"></i>
                     </div>
                     <div class="mt-5">
                         <h6 class="font-weight-bold">Adaptable to each client</h6>
-                         <p class="text-justify small">
+                         <p class="text-justify text-center">
                              All our technology are produced inhouse, and can be modified by removing or adding extensions to suit your needs 
                          </p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-sm">
                      <div class="mb-4">
-                        <i class="fas fa-trophy text-warning fa-5x"></i>
+                        <i class="fas fa-headset text-warning fa-5x"></i>
                     </div>
                     <div class="mt-5">
                         <h6 class="font-weight-bold">Regular Update</h6>
-                         <p class="text-justify small">
+                         <p class="text-justify text-center">
                             We work closely with you to see that you get the best results from the solution we offer
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-sm mb-5">
                     <div class="mb-4">
-                        <i class="fas fa-trophy text-primary fa-5x"></i>
+                        <i class="fas fa-cogs text-primary fa-5x"></i>
                     </div>
                     <div class="mt-5">
                         <h6 class="font-weight-bold">Quick Set-up</h6>
-                        <p class="text-justify small">
+                        <p class="text-justify text-center">
                            We offer a quck set up and use solution which doesnt require any additional coding from your own end. 
                         </p>
                     </div>
@@ -157,7 +156,7 @@
         <hr>
         <div class="container">
             <div class="row">
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Botgence Solutions</h6>
                 </div>
@@ -179,7 +178,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Contact Us</h6>
                 </div>
@@ -196,6 +195,13 @@
                   <div class="mt-3">
                     <p class="text-white">No 7 factory road opposite UBA Bank <br> Aba, Abia State, Nigeria.</p>
                   </div>
+                </div>
+              </div>
+               <div class="col-sm-6 col-sm">
+                <div>
+                  <!-- <GmapMap class="map" /> -->
+                  <iframe src="https://maps.google.com/maps?q=botgence&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                   style="border:0" allowfullscreen width="100%" height="300px"></iframe>
                 </div>
               </div>
             </div>
@@ -253,7 +259,7 @@
     line-height: 2.3;
   }
   .footer{
-    margin-top: 200px;
+    margin-top: 100px;
   }
   p , h1, h2 ,h3 ,h4 ,h5 ,h6{
     font-family: Poppins;

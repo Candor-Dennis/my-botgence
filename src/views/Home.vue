@@ -14,7 +14,7 @@
               Automate expert  <br> communication processes  <br>  with Botgence Solutions
             </h5>
             <div>
-              <button class="btn btn-primary my-btn mt-4">Contact Us</button>
+              <button class="btn btn-primary my-btn mt-4 p-2">Contact Us</button>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
                 <img src="@/assets/face.png" alt="" class="img-fluid problems">
               </div>
               <div class="text-muted text-center">
-                <p class="font-weight-bold small">
+                <p class="font-weight-bold ">
                   The customer service team repeats most<br>  of their interactions with clients.
                    Nonetheless,<br>  these conversations can be automated and programmed.
                 </p>
@@ -75,7 +75,7 @@
                 <img src="@/assets/cash.png" alt="" class="img-fluid problems">
               </div>
                <div class="text-muted text-center">
-                <p class="font-weight-bold small">
+                <p class="font-weight-bold">
                   The customer support team could be overloaded<br>with so many demands and customers.
                    And as such,<br> you are forced to spend more on resources
                 </p>
@@ -96,7 +96,7 @@
                 <img src="@/assets/bot.png" alt="" class="img-fluid problems">
               </div>
               <div class="text-muted text-center">
-                <p class="font-weight-bold small">
+                <p class="font-weight-bold">
                   We help brands & startups understand and implement <br> AI powered chatbot
                    solutions to build success  in <br> their competitive 
                    entrepreneurial environments.
@@ -108,7 +108,7 @@
                 <img src="@/assets/save.png" alt="" class="img-fluid problems">
               </div>
                <div class="text-muted text-center">
-                <p class="font-weight-bold small">
+                <p class="font-weight-bold">
                   We've prepared pricing plans for all budgets<br>
                  So you do not have to worry about <br>spending money on excess resources<br> 
                   
@@ -131,8 +131,8 @@
                 <img src="@/assets/develop.png" alt="" class="img-fluid solutions">
               </div>
               <div class="text-muted text-center mt-3">
-                <h2 class="font-weight-bold text-warning">FEED</h2>
-                <p class="font-weight-bold small">
+                <h3 class="font-weight-bold text-warning">Feed</h3>
+                <p class="font-weight-bold ">
                  The first process involves, feeding your<br> AI powered chatbot
                    with the necessary information needed to run.This makes it smarter
                 </p>
@@ -143,8 +143,8 @@
                 <img src="@/assets/mobile.png" alt="" class="img-fluid solutions">
               </div>
                <div class="text-muted text-center mt-3">
-                 <h2 class="font-weight-bold text-warning">AUTOMATE</h2>
-                <p class="font-weight-bold small">
+                 <h3 class="font-weight-bold text-warning">Automate</h3>
+                <p class="font-weight-bold ">
                   The next step begins with swift automation into<br>
                   required website or apps.This makes <br> interactions between your customers very easy!<br> 
                 </p>
@@ -155,8 +155,8 @@
                 <img src="@/assets/robot.png" alt="" class="img-fluid solutions">
               </div>
               <div class="text-muted text-center mt-3">
-                <h2 class="font-weight-bold text-warning">GROW</h2>
-                <p class="font-weight-bold small">
+                <h3 class="font-weight-bold text-warning">Grow</h3>
+                <p class="font-weight-bold ">
                   Best results are always gotten when you keep your<br> knowledge base
                   up to date.This in turn makes the bot smarter
                 </p>
@@ -297,7 +297,7 @@
      <div class="mb-5">
       <div class="container">
         <div class="text-center text-dark  mb-4">
-          <h6 class="italic">Trust us to fit into any sector you're in.<br>
+          <h6 class="">Trust us to fit into any sector you're in.<br>
              Having automated for certain industries in our data base, <br>
              we can say that we are specialists in those sectors
              </h6>
@@ -376,7 +376,7 @@
         <hr>
         <div class="container">
             <div class="row">
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Botgence Solutions</h6>
                 </div>
@@ -398,7 +398,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-3 col-sm">
                 <div class="header">
                   <h6 class="font-weight-bold mb-3 text-white">Contact Us</h6>
                 </div>
@@ -417,9 +417,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-sm">
+              <div class="col-sm-6 col-sm">
                 <div>
-                  <GmapMap />
+                  <!-- <GmapMap class="map" /> -->
+                  <iframe src="https://maps.google.com/maps?q=botgence&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                   style="border:0" allowfullscreen width="100%" height="300px"></iframe>
                 </div>
               </div>
             </div>
@@ -461,6 +463,7 @@
   }
   .my-btn{
     border-radius: 20px 30px;
+    width: 200px;
   }
   .my-btn:hover{
     transform: translate3D(0,-40%,0);
@@ -529,7 +532,7 @@
     transition: all .3s;
   }
   .sector{
-    height: 200px;
+    height: 300px;
   }
   /* .blog{
     margin-top: 200%;
@@ -543,6 +546,9 @@
   h1{
     font-family: Monteserrat;
   }
+  .map{
+    width: 80%;
+  }
   @media all and (max-width: 699px) and (min-width: 520px) {
     .d-flex{
       display: block;
@@ -551,9 +557,14 @@
 </style>
 
 <script>
-import GmapMap from "@/components/GmapMap.vue"
+// import GmapMap from "@/components/GmapMap.vue"
 
 export default {
   name: 'Home',
+  // components:{
+  //   GmapMap
+  // }
 }
 </script>
+
+
